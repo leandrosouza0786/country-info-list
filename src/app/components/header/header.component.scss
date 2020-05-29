@@ -1,0 +1,13 @@
+@import  '../../../styles.scss';
+
+.header{
+    background-color: $dark-blue;
+    color: $white-default;
+    padding: 1.3em 2em;
+
+    .header-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
